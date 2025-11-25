@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="header-container">
-        <img className="logo" src="/assets/dc-logo.png" alt="DC Logo" />
+        <img className="logo" src="/assets/img/dc-logo.png" alt="DC Logo" />
 
         <nav>
           <ul className="nav-links">
