@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* HEADER */
+.site-header {
+    background-color: #ffffff;
+    color: #000;
+    margin-top: 20px;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    height: 70px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-links li.active {
+    color: #0282f9;
+}
+
+/* MAIN */
+.jumbotron {
+    background-color: #1c1c1c;
+    padding: 60px 0;
+}
+
+.jumbotron-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+.blue-bar {
+    background-color: #0282f9;
+    padding: 30px 0;
+}
+
+.blue-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.icon-placeholder {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FOOTER */
+.site-footer {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/* PARTE ALTA CON I DUE SFONDI */
+.footer-top {
+    /* 1° sfondo: logo DC grande a destra
+     2° sfondo: immagine con i personaggi */
+    background-image: url("/img/dc-logo-bg.png"), url("/img/footer-bg.jpg");
+    background-position: right center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+
+    padding: 40px 0 60px;
+    /* spazio sopra e sotto */
+}
+
+/* Contenuto delle colonne */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul li {
+    font-size: 12px;
+    color: #c0c0c0;
+    margin-bottom: 4px;
+}
+
+/* PARTE BASSA GRIGIA */
+.footer-bottom {
+    background-color: #303030;
+    padding: 20px 0;
+}
+
+.footer-bottom-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    border: 2px solid #0282f9;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.social span {
+    color: #0282f9;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
