@@ -30,36 +30,23 @@ export default function AppMain() {
 
             <section className="blue-bar">
                 <div className="container blue-bar-inner">
-
                     <div className="blue-item">
-                        <img
-                            src="/img/buy-comics-digital-comics.png"
-                            alt="Digital Comics"
-                        />
+                        <img src="/img/buy-comics-digital-comics.png" alt="Digital Comics" />
                         <span>DIGITAL COMICS</span>
                     </div>
 
                     <div className="blue-item">
-                        <img
-                            src="/img/buy-comics-merchandise.png"
-                            alt="DC Merchandise"
-                        />
+                        <img src="/img/buy-comics-merchandise.png" alt="DC Merchandise" />
                         <span>DC MERCHANDISE</span>
                     </div>
 
                     <div className="blue-item">
-                        <img
-                            src="/img/buy-comics-subscriptions.png"
-                            alt="Subscriptions"
-                        />
+                        <img src="/img/buy-comics-subscriptions.png" alt="Subscriptions" />
                         <span>SUBSCRIPTION</span>
                     </div>
 
                     <div className="blue-item">
-                        <img
-                            src="/img/buy-comics-shop-locator.png"
-                            alt="Comic Shop Locator"
-                        />
+                        <img src="/img/buy-comics-shop-locator.png" alt="Shop Locator" />
                         <span>COMIC SHOP LOCATOR</span>
                     </div>
 
