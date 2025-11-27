@@ -1,4 +1,5 @@
 import comics from "../assets/comics";
+import ComicCard from "./ComicCard";
 
 export default function AppMain() {
     return (
@@ -12,12 +13,7 @@ export default function AppMain() {
 
                     <div className="comics-grid">
                         {comics.map((comic) => (
-                            <div key={comic.id} className="comic-card">
-                                <div className="thumb-wrapper">
-                                    <img src={comic.thumb} alt={comic.title} />
-                                </div>
-                                <h3 className="comic-title">{comic.series}</h3>
-                            </div>
+                            <ComicCard key={comic.id} comic={comic} />
                         ))}
                     </div>
 
